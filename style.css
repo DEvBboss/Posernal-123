@@ -1,0 +1,54 @@
+/* Basic styles for the profile page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.profile-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.profile-name {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.profile-bio {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.profile-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.profile-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.profile-links a {
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+}
